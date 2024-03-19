@@ -30,7 +30,7 @@ To get a local copy of this project up and running, follow these steps:
 1. Clone the repository to your local machine using the following command:
 
    ```bash
-   https://github.com/sanjay-1458/Currency-Converter.git
+   git clone https://github.com/sanjay-1458/Currency-Converter.git
    ```
 
 2. Navigate to the project's directory:
@@ -38,11 +38,20 @@ To get a local copy of this project up and running, follow these steps:
    ```bash
    cd your-repo
    ```
-3. Run live server
+3. Run live server 
 4. Open your browser and visit [http://127.0.0.1:5500/](http://127.0.0.1:5500/) to see the project running.
 5. Input the amount you want to convert in the "Enter Amount" field.
 6. Select the currency you want to convert from in the "From" dropdown menu.
 7. Select the currency you want to convert to in the "To" dropdown menu.
 8. Click on the "Get Exchange Rate" button to fetch the latest exchange rate and see the converted amount.
 
-Feel free to contribute to the project by providing feedback, suggesting improvements, or submitting pull requests.
+## Conditions
+
+You may face a runtime error while fetching JSON from the API if the URL gets updated or moved. As of "2023-03-06" the URL is:
+```
+https://2024-03-06.currency-api.pages.dev/v1/currencies/${currency}.json
+```
+Replace `${currency}` with `inr`, `usd`, etc...
+
+
+
