@@ -1,6 +1,6 @@
 # Currency Converter
 
-The Currency Converter is a web application designed to help users convert between different currencies using the latest exchange rates as of (2024-03-06). This application utilizes the Fetch API in JavaScript to dynamically fetch exchange rates from an external API and display them to the user.
+The Currency Converter is a web application designed to help users convert between different currencies using the latest exchange rates. This application utilizes the Fetch API in JavaScript to dynamically fetch exchange rates from an external API and display them to the user.
 
 ![Screenshot 2024-03-19 213333](https://github.com/sanjay-1458/Currency-Converter/assets/121040100/080794e9-e131-428e-93bb-f410d823258a)
 
@@ -48,9 +48,7 @@ To get a local copy of this project up and running, follow these steps:
 7. Select the currency you want to convert to in the "To" dropdown menu.
 8. Click on the "Get Exchange Rate" button to fetch the latest exchange rate and see the converted amount.
 
-## Conditions
-
-You may face a runtime error while fetching JSON from the API if the URL gets updated or moved. As of "2023-03-06" the URL is:
+## Api
 ```
 https://2024-03-06.currency-api.pages.dev/v1/currencies/${currency}.json
 ```
