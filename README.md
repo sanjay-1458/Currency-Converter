@@ -54,5 +54,6 @@ https://2024-03-06.currency-api.pages.dev/v1/currencies/${currency}.json
 ```
 Replace `${currency}` with `inr`, `usd`, etc...
 
-
+# Deployed Link
+https://dazzling-tartufo-a7192f.netlify.app/
 
